@@ -25,8 +25,19 @@
   5. ls <directory>
   6. cp <directory>
   7. cat <directory>
-* Try those commands both on your computer and the server computer.
+* Try those commands both on your computer and the server computer, and see what they did.
 * Here are some examples if you tried pwd and ls:
 <img width="626" alt="Screen Shot 2022-04-10 at 5 19 19 PM" src="https://user-images.githubusercontent.com/103390241/162647337-f9a51146-6036-4ff0-9474-ace220c5d32f.png">
 
   ## Part4: Moving Files with scp
+  * scp is used to copy the file from your computer to the server computer.
+  * Create a file on your computer named WhereAmI.java and write some contents in it.
+  * In the terminal from the file you made, type in 
+  scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/ (make sure you put your username here).
+  * You should need to type in your password for this process, type it in.
+  * If you successfully did this, you will get the same file on the server computer.
+  * Now, use javac and java command on the ieng6 server computer to see what is happening.
+  * You will get something that looks like the image below.
+ <img width="630" alt="Screen Shot 2022-04-10 at 5 50 04 PM" src="https://user-images.githubusercontent.com/103390241/162648137-979e2d88-35cd-46be-8990-ab8f7dcb7ce1.png">
+
+  
