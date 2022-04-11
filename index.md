@@ -53,4 +53,10 @@
  <img width="630" alt="Screen Shot 2022-04-10 at 6 03 06 PM" src="https://user-images.githubusercontent.com/103390241/162648837-5340c955-ebb2-42a9-87ee-cd71bef8998c.png">
 
   ## Part6: Optimizing Remote Running
-  
+  There are many ways to faster your running program.
+  * You can use the upper arrow button to repeat the commands what you did before.
+  * You can also use the ssh cs15lsp22zz@ieng6.ucsd.edu to directly run the commands on the server computer.
+  * You can use scp + the directory where you save the file + cs15lsp22zz@ieng6.ucsd.edu to copy the file directly on the server computer.
+  * Here is the image of examples, if you try to run your program faster:
+  <img width="1367" alt="Screen Shot 2022-04-10 at 6 40 08 PM" src="https://user-images.githubusercontent.com/103390241/162651191-e9abd946-dbe3-466a-94f4-770af83cfec4.png">
+
