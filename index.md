@@ -39,5 +39,17 @@
   * Now, use javac and java command on the ieng6 server computer to see what is happening.
   * You will get something that looks like the image below.
  <img width="630" alt="Screen Shot 2022-04-10 at 5 50 04 PM" src="https://user-images.githubusercontent.com/103390241/162648137-979e2d88-35cd-46be-8990-ab8f7dcb7ce1.png">
-
   
+  ## Part5: Setting an SSH Key
+  * SSH key is used to help you do not need to enter password for the ssh anymore!
+  * It creates two keys: one is public key, and another is private key. You copy the public key on the server, and the private key on the client.
+  * Run ssh-keygen on your computer.
+  * Run mkdir .ssh on the server.
+  * Run ssh-keygen again on your computer.
+  * Enter the file in which you save the key.
+  * Leave other things blank and keep pressing enter.
+  * After you success, try scp again! It should not need password anymore!
+  * If you success, you should get something that looks like the image below.
+ <img width="630" alt="Screen Shot 2022-04-10 at 6 03 06 PM" src="https://user-images.githubusercontent.com/103390241/162648837-5340c955-ebb2-42a9-87ee-cd71bef8998c.png">
+
+  ## Part6: 
