@@ -15,3 +15,18 @@
 <img width="625" alt="Screen Shot 2022-04-10 at 5 06 46 PM" src="https://user-images.githubusercontent.com/103390241/162646978-4066ce9f-1c7f-4ddb-895c-ea48bd3fad18.png">
 
 ## Part3: Run Some Commands
+* Try some commands now! Run the commands cd,ls,pwd,mkdir, and cp.
+* For example: ls will give you the list of files in the current directory, and pwd will show the directory path.
+* Here are some useful commands you may want to try:
+  1. cd ~
+  2. cd
+  3. ls -lat
+  4. ls -a
+  5. ls <directory>
+  6. cp <directory>
+  7. cat <directory>
+* Try those commands both on your computer and the server computer.
+* Here are some examples if you tried pwd and ls:
+<img width="626" alt="Screen Shot 2022-04-10 at 5 19 19 PM" src="https://user-images.githubusercontent.com/103390241/162647337-f9a51146-6036-4ff0-9474-ace220c5d32f.png">
+
+  ## Part4: Moving Files with scp
