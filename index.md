@@ -52,7 +52,10 @@ ssh cs15lsp22zz@ieng6.ucsd.edu
   
   ## Part5: Setting an SSH Key
   * SSH key is used to help you do not need to enter password for the ssh anymore!
-  * Run ssh-keygen on your computer.
+  * Run the code belown on your computer.
+  ```
+  ssh-keygen 
+  ```
   * It creates two keys: one is public key(in rd_isa.pub), and another is private key(rd_isa). You copy the public key on the server, and the private key on the client.
   * Leave other things blank and keep pressing enter.
   * Copy your public key! Run the code below on your computer and enter your password.
