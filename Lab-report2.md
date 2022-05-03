@@ -36,3 +36,8 @@ The symptom here shows that if the link only has bracket but not the parenthesis
 Here is the failure-inducing input:
 <img width="1064" alt="Screen Shot 2022-04-24 at 7 12 38 PM" src="https://user-images.githubusercontent.com/103390241/165009537-01954ab9-022a-450e-a8f5-2c2e5a94e3d9.png">
 Here is the link for test-file[test-file](https://github.com/wilburmao620/markdown-parser/blob/main/test-file.md)
+
+Here is the symptom of the output:
+
+<img width="776" alt="Screen Shot 2022-05-02 at 11 14 24 PM" src="https://user-images.githubusercontent.com/103390241/166411387-3c700b64-e314-4283-9e96-e6b1adf2cf8d.png">
+
