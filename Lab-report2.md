@@ -11,6 +11,11 @@ Here is the failure-inducing input:
 <img width="1090" alt="Screen Shot 2022-04-24 at 6 36 04 PM" src="https://user-images.githubusercontent.com/103390241/165006923-45065034-a847-488b-ae7f-c9341a9e588d.png">
 Here is the link for test-file [new-test](https://github.com/wilburmao620/markdown-parser/blob/main/new-test.md).
 
+Here is the symptom of the output:
+
+<img width="707" alt="Screen Shot 2022-05-02 at 11 07 35 PM" src="https://user-images.githubusercontent.com/103390241/166410981-050c6027-f80d-41a4-b491-50196aff2e9f.png">
+
+
 ## Second Code Change
 <img width="1211" alt="Screen Shot 2022-04-24 at 6 49 34 PM" src="https://user-images.githubusercontent.com/103390241/165007832-76576d1f-ccad-4178-ba46-0cbcc5c1931a.png">
 The symptom here shows that it will still read the image link in the test file, but actually it should not read the image as a part of the webpage link. To solve this bug, we should not read the link after the exclamation mark because it is a image link.
