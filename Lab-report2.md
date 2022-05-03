@@ -24,6 +24,11 @@ Here is the failure-inducing input:
 <img width="1085" alt="Screen Shot 2022-04-24 at 6 55 22 PM" src="https://user-images.githubusercontent.com/103390241/165008270-da21d610-54f0-44e8-8d46-c9233bc524ad.png">
 Here is the link for test-file[test-file1](https://github.com/wilburmao620/markdown-parser/blob/main/test-file1.md)
 
+Here is the symptom of the output:
+
+<img width="643" alt="Screen Shot 2022-05-02 at 11 11 19 PM" src="https://user-images.githubusercontent.com/103390241/166411171-9910b2e2-6897-45fc-824f-4000ad970589.png">
+
+
 ## Third Code Change
 <img width="1228" alt="Screen Shot 2022-04-24 at 7 09 41 PM" src="https://user-images.githubusercontent.com/103390241/165009312-62e9c815-9ab7-47ce-a6e8-cb26ef624bb8.png">
 The symptom here shows that if the link only has bracket but not the parenthesis, and it will not read the invalid input for the link. Before we chenge the code, it will give an infinite loop instead of ignoring the invalid link. After we fix it, it will not read the invalid input anymore.
