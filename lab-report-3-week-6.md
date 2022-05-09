@@ -25,6 +25,12 @@ Below is how I did it:
 
 <img width="1061" alt="Screen Shot 2022-05-08 at 9 53 55 PM" src="https://user-images.githubusercontent.com/103390241/167343051-bb3f28b0-3ab3-42c3-a802-6253a87d3e8e.png">
 
+2. Use 'commit' command on the ieng6 remote and push to the origin:
+
+<img width="798" alt="Screen Shot 2022-05-08 at 11 16 40 PM" src="https://user-images.githubusercontent.com/103390241/167351365-6b15c82b-8d8e-4ac3-af9f-d05ac423652a.png">
+
+3. [Here is the link for the commit](https://github.com/wilburmao620/markdown-parser/commit/8dcd682398bef4d43439ba8eb23b70c0ff141227) 
+
 
 
 ## Copy whole directories with `scp -r`
