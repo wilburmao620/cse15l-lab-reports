@@ -29,6 +29,17 @@ Below is how I did it:
 
 ## Copy whole directories with `scp -r`
 
+1. Here is how copy whole markdown-parse directory to my ieng6 account:
+
+<img width="1346" alt="Screen Shot 2022-05-08 at 10 12 26 PM" src="https://user-images.githubusercontent.com/103390241/167344782-682fcc67-b2d5-4e47-b00d-bece4169037b.png">
+
+<img width="687" alt="Screen Shot 2022-05-08 at 10 13 43 PM" src="https://user-images.githubusercontent.com/103390241/167344825-0bd237fb-163f-4dad-a2c7-d3951be1d30e.png">
+
+2. Here is how I compile test cases for the markdown-parser on my ieng6 account:
+
+<img width="1076" alt="Screen Shot 2022-05-08 at 10 43 15 PM" src="https://user-images.githubusercontent.com/103390241/167347707-ef507016-ddd1-46ac-9214-ed6685bd5133.png">
+
+
 
 
 
