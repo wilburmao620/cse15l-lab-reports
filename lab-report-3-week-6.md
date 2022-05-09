@@ -18,4 +18,17 @@ Below is how I did it:
 
 <img width="531" alt="Screen Shot 2022-05-08 at 9 07 46 PM" src="https://user-images.githubusercontent.com/103390241/167339051-eabc3676-9d38-4ad1-b7a9-be1927324c13.png">
 
+## Setup Github Access from ieng6
+1. Here is the public and private key:
+
+<img width="1211" alt="Screen Shot 2022-05-08 at 9 33 51 PM" src="https://user-images.githubusercontent.com/103390241/167341295-5b8e93b0-b487-43f4-b221-b658cfa577f3.png">
+
+<img width="1061" alt="Screen Shot 2022-05-08 at 9 53 55 PM" src="https://user-images.githubusercontent.com/103390241/167343051-bb3f28b0-3ab3-42c3-a802-6253a87d3e8e.png">
+
+
+
+## Copy whole directories with `scp -r`
+
+
+
 
