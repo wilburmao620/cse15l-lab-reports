@@ -39,6 +39,11 @@ Below is how I did it:
 
 <img width="1076" alt="Screen Shot 2022-05-08 at 10 43 15 PM" src="https://user-images.githubusercontent.com/103390241/167347707-ef507016-ddd1-46ac-9214-ed6685bd5133.png">
 
+3. Combine the commands and compile:
+
+<img width="1111" alt="Screen Shot 2022-05-08 at 10 55 05 PM" src="https://user-images.githubusercontent.com/103390241/167348818-f12d375d-dcad-49a2-a12e-b8bed195988c.png">
+<img width="1112" alt="Screen Shot 2022-05-08 at 10 56 01 PM" src="https://user-images.githubusercontent.com/103390241/167348876-9e2c8504-0ed1-4027-bde6-1e545b9b77ea.png">
+
 
 
 
