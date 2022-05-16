@@ -14,9 +14,10 @@ Below is how I did it:
 
 <img width="557" alt="Screen Shot 2022-05-08 at 8 58 04 PM" src="https://user-images.githubusercontent.com/103390241/167338220-4f2badda-83d2-4d3b-9094-7ac58ff315f0.png">
 
-3. Use the `scp` commmand to copy the file to the account:
+3. Use the `scp` commmand to copy the file to the home directory account:
 
-<img width="531" alt="Screen Shot 2022-05-08 at 9 07 46 PM" src="https://user-images.githubusercontent.com/103390241/167339051-eabc3676-9d38-4ad1-b7a9-be1927324c13.png">
+<img width="812" alt="Screen Shot 2022-05-15 at 8 38 52 PM" src="https://user-images.githubusercontent.com/103390241/168515882-f9e29eae-7b93-49ce-aa6a-ef4b9a4afc4a.png">
+
 
 ## Setup Github Access from ieng6
 1. Here is the public and private key:
