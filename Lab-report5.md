@@ -30,6 +30,14 @@ below is the expect output:
 
 It is obivious that two actual outputs are wrong!
 
+The bug happens for the output on the right side because it can not recognize the foobar as a link inside a bracket, since there is one more bracket exist in the two brackets. Since it can not recognize it as a link, it will not give any valid link. That's why there's a bug there.
+
+Below is where should be fixed:
+
+<img width="502" alt="Screen Shot 2022-06-06 at 12 31 00 AM" src="https://user-images.githubusercontent.com/103390241/172115982-7fb27c35-d9c9-4e89-9abf-4c765d32c1d8.png">
+
+It can only recognize the first ending baracket as the link closer, but can not find the link after. However, it should be changed to find the last ending bracket to help find the link.
+
 ## Test2
 
 for the test in the 201.md, below is the difference:
@@ -41,3 +49,11 @@ below is the expect output:
 <img width="1170" alt="Screen Shot 2022-06-06 at 12 12 18 AM" src="https://user-images.githubusercontent.com/103390241/172113217-d8421f13-b54e-44b3-93c2-c4a76222a008.png">
 
 Since there's no valid link, so the right output has right answer, but the output on the left doesn't(which is the given repository).
+
+The bug happens on the left becasue it recognizes baz as a link. However baz does not exist in the bracket but in a greater and smaller sign. This should not be happen in the code becasue it can not recognize the value in the <> as a link.
+
+Below is where should be changed:
+
+<img width="598" alt="Screen Shot 2022-06-06 at 12 36 06 AM" src="https://user-images.githubusercontent.com/103390241/172116709-51c062dd-4ce5-4354-8ec1-d4f69ce94de0.png">
+
+Since it only gives the index of the brackets, it also determines the smaller and bigger sign as a potential link, which should not be happened. It needs to be modified by trying to give more limits on dietermine what is a link or no.
